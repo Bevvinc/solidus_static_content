@@ -1,10 +1,10 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'solidus_static_content'
-  s.version     = '1.0.0'
+  s.version     = '1.0.1'
   s.summary     = 'Extention to manage the static pages for your Spree shop.'
   s.description = s.summary
-  s.required_ruby_version = '>= 1.9.3'
+  s.required_ruby_version = '>= 2.5.1'
 
   s.authors      = [%q{Peter Berkenbosch}, %q{Roman Smirnov}]
   s.email        = 'peter@pero-ict.nl'
@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'solidus', ['>= 1.1', '< 3']
   s.add_dependency "solidus_support"
-  s.add_dependency 'deface', '~> 1.0'
+  s.add_dependency 'deface'
 
   s.add_development_dependency 'capybara', '~> 2.7'
   s.add_development_dependency 'factory_bot', '~> 4.7'
